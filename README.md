@@ -91,6 +91,55 @@ The Deepfake Detector bot is designed to operate within a Discord server and mon
 
 <hr/>
 
+### Installation
+
+1. Clone the repository
+    ```
+    git clone https://github.com/shreyavaidya2311/mimvit-deepfake-detection.git
+    ```
+
+2. API Keys
+
+    | Command           | Link                                                      |
+    | ---               | ---                                                       |
+    | Youtube API       | [Link](https://developers.google.com/youtube/v3)          |
+    | Discord Bot Token | [Link](https://discord.com/developers/docs/topics/oauth2) |
+    | Dropbox API       | [Link](https://www.dropbox.com/developers)                |
+
+    Replace DISCORD_BOT_TOKEN, DROPBOX_TOKEN and YOUTUBE_API_KEY in the code with your keys
+
+
+3. Frontend Dependencies
+    ```
+    cd frontend && npm i
+    ```
+
+4. Backend Dependencies
+    ```
+    pip install -r requirements.txt
+    pip install discord.py
+    ```
+
+5. Run the frontend (http://localhost:3000/)
+    ```
+    cd frontend && npm start
+    ```
+
+6. Run the backend (http://localhost:8000/)
+    ```
+    uvicorn app:app --host=0.0.0.0 --port=8000
+    ```
+
+7. Run the Discord Bot
+
+    *Before running the bot, create a bot on the Discord Developer Console and add it to your server. Paste the bot token in `bot.py`*
+    
+    ```
+    python3 bot.py
+    ```
+
+<hr/>
+
 ### Contributors
 
 - <a href="https://www.linkedin.com/in/shreya-vaidya/">Shreya Vaidya</a>
