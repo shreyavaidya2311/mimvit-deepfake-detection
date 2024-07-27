@@ -1,5 +1,7 @@
 ## MIM-ViT: Deepfake Detection using Masked Image Modelling and Vision Transformer
 
+<a href="https://link.springer.com/book/10.1007/978-981-97-3180-0#page=27">Publication Link</a>
+
 ### Introduction
 <div align="justify">
 The term “deepfake” is derived from the words “deep learning” and “fake”. Deepfakes are synthetic media that use deep learning to manipulate or replace the original content of an image, audio, or video file to create a new version that appears to be authentic. The number of deepfake videos has been multiplying rapidly in the past 5 years. The alarming rate of growth of deepfakes is a major cause of concern. Deepfake detection is important for several reasons:
